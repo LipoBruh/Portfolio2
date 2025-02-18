@@ -13,7 +13,7 @@ function App(routes) {
 
 
     return (
-    <div className="grid w-full min-h-screen px-6 ">
+    <div className="grid grid-rows-[auto_1fr_auto] w-full grid-cols-1  min-h-screen px-6 ">
 
         <div className="col-span-1">
 
@@ -23,7 +23,7 @@ function App(routes) {
             </div>
         
         
-            <div className={`grid grid-cols-${routes.routes.length} header`}>
+            <div className={`grid grid-cols-${routes.routes.length} header`} > 
                 {/* Iterates over all the routes and generates a clickable header */}
                 {routes.routes.map((route, index) => (
                     <HeaderButton route={route} key={index} toggler={setIsToggled} state={isToggled}>{route}</HeaderButton>
@@ -33,13 +33,13 @@ function App(routes) {
         </div>
 
 
-        <div className="col-span-1 bg-neutral-800">
+        <div className="col-span-1 min-h-full  bg-neutral-800 " >
             <Outlet/>
         </div>
 
 
-        <div className="header col-span-1">
-            footer
+        <div className="header col-span-1 h-3 mb-3">
+            
         </div>
 
     </div>
