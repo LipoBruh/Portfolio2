@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+  /*...*/
+}
+
+html{
+  width: 100%;
+}
+
+.AppWidth{
+  
+}
+
+
+.header{
+  @apply bg-neutral-700;
+  
+}
+
+.headerCLI{
+  @apply bg-neutral-800 font-[family-name:Courier] text-white dark:text-white;
+  font-family: 'JetBrainsMono', sans-serif;
+}
+
+.headerHover:hover{
+  @apply bg-neutral-600;
+}
+
+.bodyBG{
+  @apply bg-zinc-900;
+}
+
+.headerButtons{
+  font-family: 'JetBrainsMono', sans-serif;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('/webfonts/JetBrainsMono-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

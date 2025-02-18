@@ -3,7 +3,8 @@
 ## Notes
 
 #### Ressources
-
+https://tailwindcss.com/docs/installation/using-vite
+https://tailwindcss.com/docs/installation/using-postcss
 
 #### Installation 
 
