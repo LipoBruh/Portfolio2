@@ -26,6 +26,13 @@ html{
   font-family: 'JetBrainsMono', sans-serif;
 }
 
+.bodyCLI{
+  @apply bg-neutral-800/70 font-[family-name:Courier] text-white dark:text-white;
+  font-family: 'JetBrainsMono', sans-serif;
+}
+
+
+
 .headerHover:hover{
   @apply bg-neutral-600;
 }

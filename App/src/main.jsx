@@ -7,7 +7,7 @@ import { BODY } from "./assets/assets";
 import Page from "./pages/Page";
 
 
-console.log(Object.entries(BODY))
+
 const routes = Object.values(BODY).map((route,index) => ({element:<Page route={route} />, path:route.path, index:route.index, name:route.name}));
 
 const router = createBrowserRouter([{

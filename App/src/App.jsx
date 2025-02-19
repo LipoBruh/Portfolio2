@@ -7,13 +7,10 @@ import React, { useState, useEffect } from "react";
 
 function App(routes) {
 
-    console.log(routes)
-
     const [isToggled, setIsToggled] = useState(false);
 
-
     return (
-    <div className="grid grid-rows-[auto_1fr_auto] w-full grid-cols-1  min-h-screen px-6 ">
+    <div className="grid grid-rows-[auto_1fr_auto] w-full grid-cols-1  min-h-screen px-6 max-w-[1000px] mx-auto">
 
         <div className="col-span-1">
 
@@ -34,7 +31,7 @@ function App(routes) {
 
 
         <div className="col-span-1 min-h-full  bg-neutral-800 " >
-            <Outlet/>
+            <Outlet context={isToggled} />
         </div>
 
 
