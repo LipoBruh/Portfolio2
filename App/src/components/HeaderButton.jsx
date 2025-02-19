@@ -14,11 +14,11 @@ export default function HeaderButton({ route,toggler,state}) {
 
   return (
     <div
-      className={"h-full flex-1 flex items-center justify-center transition-all duration-500 headerHover"+((state == route)?" border-b-1 border-white":"") }
+      className={"overflow-hidden  flex-1 flex items-center justify-center transition-all duration-500 headerHover"+((state == route)?" border-b-1 border-white":"") }
       onClick={handleClick}
     >
 
-        <h3 className="headerButtons text-center text-stone-0  dark:text-white ">
+        <h3 className="headerButtons text-center text-stone-0  dark:text-white">
           {route?.name || "Unnamed"}
         </h3>
 
