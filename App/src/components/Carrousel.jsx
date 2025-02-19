@@ -66,8 +66,8 @@ export default function Carrousel({projects} ) {
             onClick={() => goToSlide(currentSlide - 1)}
             className="cursor-pointer absolute left-10 top-1/2 -translate-y-1/2  text-white h-[40px] w-[40px] rounded-full text-center"
           >
-            <svg class="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m14 8-4 4 4 4"/>
+            <svg className="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m14 8-4 4 4 4"/>
             </svg>
 
 
@@ -77,8 +77,8 @@ export default function Carrousel({projects} ) {
             onClick={() => goToSlide(currentSlide + 1)}
             className="cursor-pointer absolute right-20 top-1/2 -translate-y-1/2 text-white h-[40px] w-[40px] rounded-full text-center"
           >
-            <svg class="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m10 16 4-4-4-4"/>
+            <svg className="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m10 16 4-4-4-4"/>
             </svg>
 
           </button>

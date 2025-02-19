@@ -6,8 +6,8 @@ import { BODY } from '../assets/assets'
 
 export default function Page({route}) {
 
-  let projects = BODY[route.name].projects
-  let description = BODY[route.name].description
+  let projects = BODY.routes[route.name].projects
+  let description = BODY.routes[route.name].description
 
   return (
 

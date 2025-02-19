@@ -8,6 +8,8 @@ import React, { useState, useEffect } from "react";
 function App(routes) {
 
     const [isToggled, setIsToggled] = useState(false);
+    
+    console.log(routes.routes.length)
 
     return (
     <div className="grid grid-rows-[auto_1fr_auto] w-full grid-cols-1  min-h-screen px-6 max-w-[1000px] mx-auto">
@@ -20,10 +22,14 @@ function App(routes) {
             </div>
         
         
-            <div className={`grid grid-cols-${routes.routes.length} header`} > 
+            <div className={`flex header`} > 
                 {/* Iterates over all the routes and generates a clickable header */}
                 {routes.routes.map((route, index) => (
-                    <HeaderButton route={route} key={index} toggler={setIsToggled} state={isToggled}>{route}</HeaderButton>
+                    route.name !== "Home" ? (
+                        <HeaderButton route={route} key={index} toggler={setIsToggled} state={isToggled} >
+                        {route}
+                        </HeaderButton>
+                    ) : null
                 ))}
             </div>
 
