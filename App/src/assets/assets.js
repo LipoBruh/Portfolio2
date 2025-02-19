@@ -281,9 +281,104 @@ export const BODY = {
                         }
                     },
 
-                
+               { 
+                    title : "Peak through my microscope",
+                    description : "We can observe pancreatic acinar cells. The stain is hematoxylin & eosin. Hematoxylin stains the genetic material in a darker color. Eosin stains cationic material, like cytoplasmic proteins. This photo was taken through my microscope at home." ,
+                    src : "images/microbiology/microbiology3.jpg",
+                    links : {
+                        }
+                    },
 
+               { 
+                    title : "Stem cell colonies",
+                    description : "Stem cells can be incubated on a gel medium. Some population of cells will divide to form colonies of up to 1000 individuals. We can count up to 100 colonies on an incubated sample. The count of colonies is a metric of quality of the donor blood containing the stem cells." ,
+                    src : "images/microbiology/microbiology5.png",
+                    links : {
+                        }
+                    },
+                
+               { 
+                    title : "My old routine",
+                    description : "The first step of the process of qualifying blood containing stem cells is simply to do a blood count. Pipette a few microliters of the blood with a washing solution and count the cells at the Coulter blood cell counter." ,
+                    src : "images/microbiology/microbiology4.jpg",
+                    links : {
+                        }
+                    },
+                
                 ],
             },
+
+
+            
+            "Web Development" : {
+                name : "Web Development",
+                path: "/Web",
+                index:false,
+                description : "Nowadays, most of my personal projets are web based. I have become quite proficient with both the frontend and backend subtleties. The freedom of web development is pleasant and the tools are numerous to assist your creativity.",
+                projects : [
+    
+    
+                    { 
+                        title : "Calque Web App prototype",
+                        description : "The Calque web app prototype was a summer project realized under the supervision of a software engineering teacher. The app is an interactive map generator that uses a SVG canvas to handle the creation of your custom map. It is envisioned as both an annotation tool and as a progressive web app that can provide interactive elements to explore destinations and itineraries. " ,
+                        src : "images/web/web_calque.png",
+                        links : {
+                            }
+                        },
+
+                    { 
+                        title : "Three.js and 3D",
+                        description : "Again, we find an opportunity to use 3D elements inside our creations. Here, I have designed a robot, rigged it with an armature and defined animations in blender with the NLA editor. That asset can be imported into our project (visualized here in the three.js editor) and wired to our logic." ,
+                        src : "images/web/web_crap.png",
+                        links : {
+                            }
+                        },
+
+                    { 
+                        title : "A tree in Three.js",
+                        description : "In the infamous computer graphics course in computer science, we had to generate and animate a mesh from using only splines and matrix transformations. The scene isn't the interesting part, but rather the logic behind the method used to generate the tree." ,
+                        src : "images/web/web_tree.png",
+                        links : {
+                            }
+                        },
+                    
+                    { 
+                        title : "Multiplayer Tic Tac Toe",
+                        description : "My lastest project is a simple one, make a tic tac toe game that is multiplayer using websockets, then deploy it on discord activities. I will make sure to link it here once it is fully done. The React Three Fiber library makes Three.js much more interactive and accessible. " ,
+                        src : "images/web/web_crap2.png",
+                        links : {
+                            }
+                        },
+
+                                        
+                    { 
+                        title : "My portfolio",
+                        description : "This portfolio is also a web project! In fact, this is the refactored version, remade from scratch to solve the minor bugs, add structure and clarity and make the website auto generating, such that only the assets.js file dictates the content of the website, the routes and the pages are created automatically. It was a good excuse to play with React-Router and master the useEffect and useState hooks. The first version was styled with Bootstrap. This one is styled with Tailwind." ,
+                        src : "images/web/web_portfolio.png",
+                        links : {
+                            }
+                        },
+
+                    ],
+                },
+
+                "Coding" : {
+                    name : "Coding",
+                    path: "/Coding",
+                    index:false,
+                    description : "Nowadays, most of my personal projets are web based. I have become quite proficient with both the frontend and backend subtleties. The freedom of web development is pleasant and the tools are numerous to assist your creativity.",
+                    projects : [
+        
+        
+                        { 
+                            title : "Discord Bot",
+                            description : "During my first year, I designed a discord bot for the purpose of assisting the D&D club with utilities, some related to the hobby, like dice rolling and encounter generation. Others were simply to manage users more easily. " ,
+                            src : "images/coding/code_bot1.png",
+                            links : {
+                                }
+                            },
+    
+                        ],
+                    },
 
 }

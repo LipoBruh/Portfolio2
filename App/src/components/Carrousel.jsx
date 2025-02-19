@@ -51,7 +51,7 @@ export default function Carrousel({projects} ) {
 
 
                     {/* Caption */}
-                    <div className="bodyCLI absolute bottom-0 w-full px-4 py-1 text-center bg-opacity-50 text-white">
+                    <div className="bodyCLI absolute bottom-0 w-full px-4 py-1 text-center text-xs bg-opacity-50 text-white">
                     {project.description}
                     </div>
                 </div>
