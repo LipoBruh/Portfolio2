@@ -382,13 +382,21 @@ export const BODY = {
             
             
                             { 
-                                title : "Discord Bot",
-                                description : "During my first year, I designed a discord bot for the purpose of assisting the D&D club with utilities, some related to the hobby, like dice rolling and encounter generation. Others were simply to manage users more easily. The script was made in Python and uses the Discord API." ,
-                                src : "images/coding/code_bot1.png",
+                                title : "Othello game on web app",
+                                description : "Small Python web app made with Streamlit (interface). The automatons used minimax (with alphabeta pruning) and montecarlo tree search to perform their actions. " ,
+                                src : "images/coding/othello.gif",
                                 links : {
                                     }
-                                },
-        
+                        },
+
+                        { 
+                            title : "Discord Bot",
+                            description : "During my first year, I designed a discord bot for the purpose of assisting the D&D club with utilities, some related to the hobby, like dice rolling and encounter generation. Others were simply to manage users more easily. The script was made in Python and uses the Discord API." ,
+                            src : "images/coding/code_bot1.png",
+                            links : {
+                                }
+                        },
+
                             ],
                         },
         }

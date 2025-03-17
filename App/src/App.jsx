@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import "./styles/index.css";
+import "./styles/styles.css";
 import HeaderButton from "./components/HeaderButton";
 import Header from "./components/Header";
 import React, { useState, useEffect } from "react";
